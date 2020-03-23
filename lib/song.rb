@@ -28,6 +28,10 @@ class Song
     song 
   end 
   
+  def self.find_or_create_by_name(title)
+    song = self.find 
+    
+  
   
 
 end
